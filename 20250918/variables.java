@@ -28,5 +28,28 @@ public class variables {
         short num001 = 1;
         short num002 = 2;
         short num003 = (short)(num001 + num002);
+
+        int n1 = 7;
+        int n2 = 3;
+
+        System.out.println("n1 + n2 = " + (n1 + n2));
+        System.out.println("n1 - n2 = " + (n1 - n2));
+        System.out.println("n1 * n2 = " + (n1 * n2));
+        System.out.println("n1 / n2 = " + (n1 / n2));
+        System.out.println("n1 % n2 = " + (n1 % n2));
+
+        short num = 10;
+        num = (short)(num + 77L);
+        int rate = 3;
+        rate = (int)(rate * 3.5);
+        System.out.println(num);
+        System.out.println(rate);
+
+        num = 10;
+        num +=77L;
+        rate = 3;
+        rate *= 3.5;
+        System.out.println(num);
+        System.out.println(rate);
     }
 }
